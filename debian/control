@@ -1,0 +1,12 @@
+Source: ros-foxy-rosros
+Section: misc
+Priority: optional
+Maintainer: Erki Suurjaak <erki@lap.ee>
+Build-Depends: debhelper (>= 9.0.0), python3-pytest <!nocheck>, ros-foxy-ament-cmake-pytest <!nocheck>, ros-foxy-builtin-interfaces, ros-foxy-rclpy, ros-foxy-rosidl-parser, ros-foxy-rosidl-runtime-py, ros-foxy-std-msgs <!nocheck>, ros-foxy-std-srvs <!nocheck>, ros-foxy-ros-workspace, python3-all, python3-setuptools, dh-python
+Homepage: http://www.ros.org/wiki/rosros
+Standards-Version: 3.9.2
+
+Package: ros-foxy-rosros
+Architecture: any
+Depends: ${python3:Depends}, ${misc:Depends}, ros-foxy-builtin-interfaces, ros-foxy-rclpy, ros-foxy-rosidl-parser, ros-foxy-rosidl-runtime-py, ros-foxy-ros-workspace
+Description: Simple unified interface to ROS1 / ROS2 Python API
