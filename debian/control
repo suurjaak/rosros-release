@@ -1,0 +1,12 @@
+Source: ros-noetic-rosros
+Section: misc
+Priority: optional
+Maintainer: Erki Suurjaak <erki@lap.ee>
+Build-Depends: debhelper (>= 9.0.0), ros-noetic-catkin, ros-noetic-genpy, ros-noetic-roslib, ros-noetic-rospy, ros-noetic-rosservice, ros-noetic-rostest <!nocheck>, ros-noetic-std-msgs <!nocheck>, ros-noetic-std-srvs <!nocheck>
+Homepage: http://www.ros.org/wiki/rosros
+Standards-Version: 3.9.2
+
+Package: ros-noetic-rosros
+Architecture: any
+Depends: ${shlibs:Depends}, ${misc:Depends}, ros-noetic-genpy, ros-noetic-roslib, ros-noetic-rospy, ros-noetic-rosservice
+Description: Simple unified interface to ROS1 / ROS2 Python API
